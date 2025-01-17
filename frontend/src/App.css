@@ -1,0 +1,40 @@
+svg{
+  position: absolute;
+  top: 32px;
+  left: 25px;
+  fill: #00000093;
+}
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.5em;
+  }
+
+  textarea {
+      width: 90%;
+  }
+
+  .controls {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 1.2em;
+  }
+
+  textarea {
+      width: 100%;
+  }
+
+  button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
